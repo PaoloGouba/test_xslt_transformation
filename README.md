@@ -9,7 +9,6 @@ This is a web application built with Streamlit that allows you to perform XSLT t
 ## Features
 
 - Input XML and XSLT content via text input or file upload.
-- Display XML and XSLT content with text highlighting similar to Visual Studio Code.
 - Perform the transformation and view the result with XML formatting.
 
 ## Installation Instructions
@@ -26,16 +25,20 @@ This is a web application built with Streamlit that allows you to perform XSLT t
 3. Press the "Run Transformation" button to obtain the transformation result.
 4. View the transformation result with XML formatting.
 
+
+![image](https://github.com/PaoloGouba/test_xslt_transformation/assets/28105927/7a5d6a17-6658-4364-b3c6-50fc92ca6c5d)
+
+   
+
+
 ## Contributions
 
 Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ## License
 
-This project is licensed under the terms of the [License Name] license. See the [LICENSE](LICENSE) file for further details.
+This project is licensed under the terms of the MIT license. See the [LICENSE](https://github.com/PaoloGouba/test_xslt_transformation/blob/main/LICENSE) file for further details.
 
 ---
 
-[Link to full tutorial on creating this app](#) (Add a link to the tutorial if you have one)
-
-[Link to live application (if available)](#)
+[Link to live application (if available)](https://free-xslt-transformer.streamlit.app/)
