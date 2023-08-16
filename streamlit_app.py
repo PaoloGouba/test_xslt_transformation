@@ -10,6 +10,8 @@ def trasforma_xml_con_xslt(xml_content, xslt_content):
         
         nuovo_xml = transform(xml_tree)
         
+        nuovo_xml = etree.tostring(nuovo_xml, pretty_print=True, encoding=str)
+        
         return str(nuovo_xml)
     except Exception as e:
         return str(e)
@@ -39,7 +41,7 @@ if st.button("Run Transformation"):
     if xml_input and xslt_input:
         risultato = trasforma_xml_con_xslt(xml_input, xslt_input)
         st.header("Transformation Result")
-        st.code(risultato, language="xml")
+        st.code(risultato, language="xml", line_numbers = True)
 
 st.sidebar.header("Informations")
 st.sidebar.markdown("This is a simple tool for performing XSLT transformations on XML using Streamlit.")
